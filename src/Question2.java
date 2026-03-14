@@ -8,6 +8,7 @@ public class Question2 {
         String opcao;
         int quantidade = 0;
         Scanner sc = new Scanner(System.in);
+
         do {
 
             if (quantidade == vetor.length) {
