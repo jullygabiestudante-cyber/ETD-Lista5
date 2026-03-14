@@ -15,7 +15,6 @@ public class Question4 {
         VerificarDistintos(vetor);
 
     }
-
     public static void VerificarDistintos(int[] vetor) {
         int i, j, quantidade = 0;
         // Novo vetor para amargenar somente os distintos

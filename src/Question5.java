@@ -4,7 +4,7 @@ public class Question5 {
      public static void main(String[] args) {
             int [] vetor1 = {1,3,5,7,9};
             int [] vetor2 = {0,2,4,8};
-            int [] vetor3 = new int [8];
+            int [] vetor3 = new int [9];
             fusaoVetor(vetor1,vetor2,vetor3);
         }
         public static void fusaoVetor(int[] vetor1, int [] vetor2, int []vetor3){
@@ -25,6 +25,19 @@ public class Question5 {
 
                 k++;
 
+            }
+            //Caso ainda existam elementos no vetor1
+            while (i < vetor1.length) {
+                vetor3[k] = vetor1[i];
+                i++;
+                k++;
+            }
+
+            //Caso ainda existam elementos no vetor2
+            while (j < vetor2.length) {
+                vetor3[k] = vetor2[j];
+                j++;
+                k++;
             }
             System.out.println("Vetor Ordenado :");
 
